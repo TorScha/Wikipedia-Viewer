@@ -1,0 +1,17 @@
+{
+  "name": "WikipediaViewer",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Torben Schaffhauser"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

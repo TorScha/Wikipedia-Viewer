@@ -1,0 +1,18 @@
+.searchBar {
+	margin: 5% 30%;
+}
+.searchBar #query {
+	display: inline;
+	width: 160px;
+}
+
+#searchResult :hover {
+	text-decoration: none !important;
+}
+#searchResult .jumbotron:hover {
+	
+	border: 1px solid silver;
+}
+.jumbotron p {
+	font-size: 15px;
+}

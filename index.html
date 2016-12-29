@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer</title>
+	<script src='node_modules/jquery/dist/jquery.min.js'></script>
+	<script src='js/app.js'></script>
+	<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css/">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+	<div class="row searchBar">
+	<input type="text" placeholder="Search Wikipedia" id='query' class="form-control">
+
+	<button onclick="doSearch()" class="btn btn-primary" style="margin-bottom: 2px;">Search</button>	
+	</div>
+		<div id="searchResult" class="row"> </div>
+</div>
+</body>
+</html>
