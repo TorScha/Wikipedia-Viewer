@@ -6,6 +6,8 @@ $(function(){
 function doSearch() {
   var query = document.getElementById('query').value;
   console.log(query);
+  var searchResult = document.getElementById("searchResult");
+  searchResult.innerHTML = "";
   search(query);
 }
 

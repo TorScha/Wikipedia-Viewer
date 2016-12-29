@@ -1,5 +1,5 @@
 .searchBar {
-	margin: 5% 30%;
+	margin: 2% 30%;
 }
 .searchBar #query {
 	display: inline;
@@ -15,4 +15,8 @@
 }
 .jumbotron p {
 	font-size: 15px;
+}
+.randomArticle {
+	display: block;
+	margin: 2% 7%;
 }
